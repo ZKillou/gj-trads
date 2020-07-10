@@ -1,7 +1,7 @@
 module.exports = {
  NOT_TRANSLATE: "Désolé, ceci n'est pas encore traduit en **FRANÇAIS**.",
  HELP: {
-  CMD_LIST: "<:Help:728617506964635659> | Liste des commandes • {{nb}} commandes",
+  CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | Liste des commandes • ${nb} commandes`,
   CMD_RAPPEL: "<a:notif:719806925788676157> | **Rappel :** Les arguments entre `<>` sont obligatoires, les arguments entre `[]` sont facultatifs.",
  },
  PING: {
@@ -9,5 +9,9 @@ module.exports = {
   ROBOT: "<:DiscordFr_Bot:724946149299191818> | Latence du robot : ",
   MSG: "<a:DiscordFr_Typing:724946684563554385> | Latence du message :",
   QUALITE: "<a:DiscordFr_BlueLoading:724947426477080647> | Qualité de la latence du robot :"
+ },
+ BAL: {
+  MONEY_OF: (usertag) => let answer = `Argent de ${usertag}`,
+  DISPLAY_MONEY: (pocket, bank, bankMax, global) => let answer = `**<:NewGoldus:725023149741047829> | Liquide : ${pocket} <:NewGoldus:725023149741047829>\n<:CarteBancaire:725023239319060643> | Argent en banque : ${bank} / ${bankMax}\n\n🌐 | Argent global : ${global} <:NewGoldus:725023149741047829>**`
  }
 }

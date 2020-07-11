@@ -32,7 +32,7 @@ module.exports = {
  WITHDRAW: (amt) => let answer = `Vous avez retiré **${amt} <:NewGoldus:725023149741047829>** de votre compte en banque avec succès !`,
  CRIME: {
   SUCCES: (amt) => let answer = `**:gem: Vous venez de dévaliser une banque, vous obtenez ${amt} <:NewGoldus:725023149741047829>**`,
-  SUCCES_AUTHOR: "Butin de"
+  SUCCES_AUTHOR: "Butin de",
   FAILED: (amt) => let answer = `**:police_officer: Vous sortez d'un cambriolage mais la police vous retrouve, vous devez payer ${amt} <:NewGoldus:725023149741047829>**`,
   FAILED_AUTHOR: "Amende de"
  }

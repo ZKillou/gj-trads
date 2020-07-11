@@ -6,7 +6,7 @@ module.exports = {
   return args
  },
  MISSING_PERMISSIONS: (perm) => let answer = `**<:CheckNo:719807585015824414> | Vous n'avez pas la permission \`${perm}\` pour utiliser cette commande.**`,
- COOLDOWN: (cmd) => let answer = `**🕑 Merci d'attendre 3594 seconde(s) avant de ré-utiliser la commande \`${cmd}\`.**`,
+ COOLDOWN: (time, cmd) => let answer = `**🕑 Merci d'attendre ${time} seconde(s) avant de ré-utiliser la commande \`${cmd}\`.**`,
  MONEY_ADD: (amt) => let answer = `**vous venez de récolter ${amt} <:NewGoldus:725023149741047829>**`,
  ACTION_FAILED: (amount, verb) => let answer = `Il vous manque **${amount} <:NewGoldus:725023149741047829>** pour ${verb} ceci !`,
  HELP: {

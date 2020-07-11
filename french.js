@@ -6,6 +6,7 @@ module.exports = {
   return args
  },
  MISSING_PERMISSIONS: (perm) => let answer = `**<:CheckNo:719807585015824414> | Vous n'avez pas la permission \`${perm}\` pour utiliser cette commande.**`,
+ ACTION_FAILED: (amount, verb) => let answer = `Il vous manque **${amount} <:NewGoldus:725023149741047829>** pour ${verb} ceci !`,
  HELP: {
   CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | Liste des commandes • ${nb} commandes`,
   CMD_RAPPEL: "<a:notif:719806925788676157> | **Rappel :** Les arguments entre `<>` sont obligatoires, les arguments entre `[]` sont facultatifs.",
@@ -19,5 +20,6 @@ module.exports = {
  BAL: {
   MONEY_OF: (usertag) => let answer = `Argent de ${usertag}`,
   DISPLAY_MONEY: (pocket, bank, bankMax, global) => let answer = `**<:NewGoldus:725023149741047829> | Liquide : ${pocket} <:NewGoldus:725023149741047829>\n<:CarteBancaire:725023239319060643> | Argent en banque : ${bank} / ${bankMax}\n\n🌐 | Argent global : ${global} <:NewGoldus:725023149741047829>**`
- }
+ },
+ DEPOSIT: (amt) => let answer = `Vous avez ajouté **${amt} <:NewGoldus:725023149741047829>** à votre compte en banque avec succès !`
 }

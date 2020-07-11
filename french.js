@@ -5,6 +5,7 @@ module.exports = {
   if(usage) args += `\n**Voici comment utiliser la commande \`${usage}\``
   return args
  },
+ MISSING_PERMISSIONS: (perm) => let answer = `**<:CheckNo:719807585015824414> | Vous n'avez pas la permission \`${perm}\` pour utiliser cette commande.**`,
  HELP: {
   CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | Liste des commandes • ${nb} commandes`,
   CMD_RAPPEL: "<a:notif:719806925788676157> | **Rappel :** Les arguments entre `<>` sont obligatoires, les arguments entre `[]` sont facultatifs.",

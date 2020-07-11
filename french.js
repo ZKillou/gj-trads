@@ -21,5 +21,12 @@ module.exports = {
   MONEY_OF: (usertag) => let answer = `Argent de ${usertag}`,
   DISPLAY_MONEY: (pocket, bank, bankMax, global) => let answer = `**<:NewGoldus:725023149741047829> | Liquide : ${pocket} <:NewGoldus:725023149741047829>\n<:CarteBancaire:725023239319060643> | Argent en banque : ${bank} / ${bankMax}\n\n🌐 | Argent global : ${global} <:NewGoldus:725023149741047829>**`
  },
- DEPOSIT: (amt) => let answer = `Vous avez ajouté **${amt} <:NewGoldus:725023149741047829>** à votre compte en banque avec succès !`
+ DEPOSIT: (amt) => let answer = `Vous avez ajouté **${amt} <:NewGoldus:725023149741047829>** à votre compte en banque avec succès !`,
+ PAY: (amt) => let answer = `a donné **${amt} <:NewGoldus:725023149741047829>** à`, // Ping au début et à la fin
+ SHOP: {
+  BANK: {
+   MENU: (name, price, cmd) => let answer = `**Nom: ${name}\nPrix: ${price} <:NewGoldus:725023149741047829>\n${cmd}**\n`
+  },
+  BUY: (item) => let answer = `Vous avez acheté **${name}** avec succès !`
+ }
 }

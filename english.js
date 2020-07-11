@@ -1,23 +1,23 @@
 module.exports = {
- NOT_TRANSLATE: "Désolé, ceci n'est pas encore traduit en **FRANÇAIS**.",
+ NOT_TRANSLATE: "Sorry, this is not translate in **ENGLISH**.",
  NO_ARGS: (usage) => {
-  let args = "**Il nous faut des arguments pour cette commande !**"
-  if(usage) args += `\n**Voici comment utiliser la commande \`${usage}\``
+  let args = "**We need arguments to execute this command !**"
+  if(usage) args += `\n**Here's how to use this command: \`${usage}\`**`
   return args
  },
- MISSING_PERMISSIONS: (perm) => let answer = `**<:CheckNo:719807585015824414> | Vous n'avez pas la permission \`${perm}\` pour utiliser cette commande.**`,
- COOLDOWN: (cmd) => let answer = `**🕑 Merci d'attendre 3594 seconde(s) avant de ré-utiliser la commande \`${cmd}\`.**`,
- MONEY_ADD: (amt) => let answer = `**vous venez de récolter ${amt} <:NewGoldus:725023149741047829>**`,
- ACTION_FAILED: (amount, verb) => let answer = `Il vous manque **${amount} <:NewGoldus:725023149741047829>** pour ${verb} ceci !`,
+ MISSING_PERMISSIONS: (perm) => let answer = `**<:CheckNo:719807585015824414> | You don't have the permission \`${perm}\` to use this command.**`,
+ COOLDOWN: (time, cmd) => let answer = `**🕑 Please wait ${time} second(s) before using the command \`${cmd}\`.**`,
+ MONEY_ADD: (amt) => let answer = `**you just get ${amt} <:NewGoldus:725023149741047829>**`,
+ ACTION_FAILED: (amount, verb) => let answer = `You need **${amount} <:NewGoldus:725023149741047829>** to do this !`,
  HELP: {
-  CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | Liste des commandes • ${nb} commandes`,
-  CMD_RAPPEL: "<a:notif:719806925788676157> | **Rappel :** Les arguments entre `<>` sont obligatoires, les arguments entre `[]` sont facultatifs.",
+  CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | List of commands • ${nb} commands`,
+  CMD_RAPPEL: "<a:notif:719806925788676157> | **Reminder :** Arguments beetween `<>` are obligatory and arguments between `[]` are optional.",
  },
  PING: {
-  API: "<a:DiscordFr_SpinDiscord:724945863214104577> | Latence de l'API :",
-  ROBOT: "<:DiscordFr_Bot:724946149299191818> | Latence du robot : ",
-  MSG: "<a:DiscordFr_Typing:724946684563554385> | Latence du message :",
-  QUALITE: "<a:DiscordFr_BlueLoading:724947426477080647> | Qualité de la latence du robot :"
+  API: "<a:DiscordFr_SpinDiscord:724945863214104577> | Latency of the API :",
+  ROBOT: "<:DiscordFr_Bot:724946149299191818> | Latency of the robot : ",
+  MSG: "<a:DiscordFr_Typing:724946684563554385> | Latency of the message :",
+  QUALITE: "<a:DiscordFr_BlueLoading:724947426477080647> | Quality of the latency of the robot :"
  },
  BAL: {
   MONEY_OF: (usertag) => let answer = `Argent de ${usertag}`,

@@ -54,5 +54,12 @@ module.exports = {
   ALREADY_ENABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Le module \`${name}\` est déjà activé sur le serveur.**`,
   DISABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Le module \`${name}\` vient d'être désactivé avec succès !**`,
   ALREADY_DISABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Le module \`${name}\` est déjà désactivé sur le serveur.**`
+ },
+ LEADERBOARD: {
+  LIST: "**<:Help:728617506964635659> | Liste des leaderboards :\n\n<:DiscordFr_Potion:725019354214695032> | g!leaderboard rank\nAffiche le leaderboard des niveaux\n<:NewGoldus:725023149741047829> | g!leaderboard money\nAffiche le leaderboard de l'argent\n🌐 | g!leaderboard gmoney\nAffiche le leaderboard de l'argent global**",
+  POS: "<:DiscordFr_Potion:725019354214695032> | Position :",
+  RANK_AUTHOR: "Top 10 des niveaux de",
+  MONEY_AUTHOR: "Top 10 des riches de",
+  GMONEY_AUTHOR: "Top 10 des riches globaux"
  }
 }

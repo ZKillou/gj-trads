@@ -39,5 +39,12 @@ module.exports = {
  WORK: {
   DESC: (amt) => let answer = `**:hammer: En récompense de votre travail acharné. Vous êtes payés ${amt} <:NewGoldus:725023149741047829>**`,
   AUTHOR: "Paye de"
+ },
+ RANK: {
+  AUTHOR: "Expérience de",
+  DESC: "<:DiscordFr_Potion:725019354214695032> | Expérience totale :",
+  LVL_NAME: "<a:DiscordFr_StarGif:725019476264747086> | Niveau :",
+  RANK_NAME: "<:4eme:726816527914893402> | Rang :",
+  PROGRESS_NAME: "<:DiscordFr_ThisUp:725019995318517780> | Progression :",
  }
 }

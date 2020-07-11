@@ -35,5 +35,9 @@ module.exports = {
   SUCCES_AUTHOR: "Butin de",
   FAILED: (amt) => let answer = `**:police_officer: Vous sortez d'un cambriolage mais la police vous retrouve, vous devez payer ${amt} <:NewGoldus:725023149741047829>**`,
   FAILED_AUTHOR: "Amende de"
+ },
+ WORK: {
+  DESC: (amt) => let answer = `**:hammer: En récompense de votre travail acharné. Vous êtes payés ${amt} <:NewGoldus:725023149741047829>**`,
+  AUTHOR: "Paye de"
  }
 }

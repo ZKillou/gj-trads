@@ -46,5 +46,11 @@ module.exports = {
   LVL_NAME: "<a:DiscordFr_StarGif:725019476264747086> | Niveau :",
   RANK_NAME: "<:4eme:726816527914893402> | Rang :",
   PROGRESS_NAME: "<:DiscordFr_ThisUp:725019995318517780> | Progression :",
+ },
+ MODULE: {
+  ENABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Le module \`${name}\` vient d'être activé avec succès !**`,
+  ALREADY_ENABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Le module \`${name}\` est déjà activé sur le serveur.**`,
+  DISABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Le module \`${name}\` vient d'être désactivé avec succès !**`,
+  ALREADY_DISABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Le module \`${name}\` est déjà désactivé sur le serveur.**`
  }
 }

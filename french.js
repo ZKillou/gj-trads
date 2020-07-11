@@ -28,5 +28,6 @@ module.exports = {
    MENU: (name, price, cmd) => let answer = `**Nom: ${name}\nPrix: ${price} <:NewGoldus:725023149741047829>\n${cmd}**\n`
   },
   BUY: (item) => let answer = `Vous avez acheté **${name}** avec succès !`
- }
+ },
+ WITHDRAW: (amt) => let answer = `Vous avez retiré **${amt} <:NewGoldus:725023149741047829>** de votre compte en banque avec succès !`
 }

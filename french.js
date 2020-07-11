@@ -1,8 +1,10 @@
 module.exports = {
  NOT_TRANSLATE: "Désolé, ceci n'est pas encore traduit en **FRANÇAIS**.",
  NO_ARGS: (usage) => {
-  let args = "Il nous faut des "
- }
+  let args = "**Il nous faut des arguments pour cette commande !**"
+  if(usage) args += `\n**Voici comment utiliser la commande \`${usage}\``
+  return args
+ },
  HELP: {
   CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | Liste des commandes • ${nb} commandes`,
   CMD_RAPPEL: "<a:notif:719806925788676157> | **Rappel :** Les arguments entre `<>` sont obligatoires, les arguments entre `[]` sont facultatifs.",

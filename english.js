@@ -20,18 +20,18 @@ module.exports = {
   QUALITE: "<a:DiscordFr_BlueLoading:724947426477080647> | Quality of the robot's latency :"
  },
  BAL: {
-  MONEY_OF: (usertag) => let answer = `Argent de ${usertag}`,
-  DISPLAY_MONEY: (pocket, bank, bankMax, global) => let answer = `**<:NewGoldus:725023149741047829> | Liquide : ${pocket} <:NewGoldus:725023149741047829>\n<:CarteBancaire:725023239319060643> | Argent en banque : ${bank} / ${bankMax}\n\n🌐 | Argent global : ${global} <:NewGoldus:725023149741047829>**`
+  MONEY_OF: (usertag) => let answer = `${usertag}'s money`,
+  DISPLAY_MONEY: (pocket, bank, bankMax, global) => let answer = `**<:NewGoldus:725023149741047829> | Cash : ${pocket} <:NewGoldus:725023149741047829>\n<:CarteBancaire:725023239319060643> | Money in bank : ${bank} / ${bankMax}\n\n🌐 | Global money : ${global} <:NewGoldus:725023149741047829>**`
  },
- DEPOSIT: (amt) => let answer = `Vous avez ajouté **${amt} <:NewGoldus:725023149741047829>** à votre compte en banque avec succès !`,
- PAY: (amt) => let answer = ` a donné **${amt} <:NewGoldus:725023149741047829>** à `, // Ping au début et à la fin
+ DEPOSIT: (amt) => let answer = `You have successfully added **${amt} <:NewGoldus:725023149741047829>** to your bank account!`,
+ PAY: (amt) => let answer = ` gave **${amt} <:NewGoldus:725023149741047829>** to `, // Ping au début et à la fin
  SHOP: {
   BANK: {
-   MENU: (name, price, cmd) => let answer = `**Nom: ${name}\nPrix: ${price} <:NewGoldus:725023149741047829>\n${cmd}**\n`
+   MENU: (name, price, cmd) => let answer = `**Name: ${name}\nPrice: ${price} <:NewGoldus:725023149741047829>\n${cmd}**\n`
   },
-  BUY: (item) => let answer = `Vous avez acheté **${name}** avec succès !`
+  BUY: (item) => let answer = `You have successfully brought **${name}**!`
  },
- WITHDRAW: (amt) => let answer = `Vous avez retiré **${amt} <:NewGoldus:725023149741047829>** de votre compte en banque avec succès !`,
+ WITHDRAW: (amt) => let answer = `You have successfully withdrew **${amt} <:NewGoldus:725023149741047829>** of tour bank account!`,
  CRIME: {
   SUCCES: (amt) => let answer = `**:gem: Vous venez de dévaliser une banque, vous obtenez ${amt} <:NewGoldus:725023149741047829>**`,
   SUCCES_AUTHOR: (usertag) => let answer = `Butin de ${usertag}`,

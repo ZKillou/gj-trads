@@ -1,29 +1,29 @@
 module.exports = {
- NOT_TRANSLATE: "Désolé, ceci n'est pas encore traduit en **FRANÇAIS**.",
+ NOT_TRANSLATE: "Entschuldigung, dies ist noch nicht in **DEUTSCH** übersetzt.",
  NO_ARGS: (usage) => {
-  let args = "**Il nous faut des arguments pour cette commande !**"
-  if(usage) args += `\n**Voici comment utiliser la commande \`${usage}\``
+  let args = "**Wir brauchen Argumente für diesen Befehl!**"
+  if(usage) args += `\n**Hier erfahren Sie, wie Sie den Befehl verwenden: \`${usage}\`**`
   return args
  },
- MISSING_PERMISSIONS: (perm) => let answer = `**<:CheckNo:719807585015824414> | Vous n'avez pas la permission \`${perm}\` pour utiliser cette commande.**`,
- COOLDOWN: (time, cmd) => let answer = `**🕑 Merci d'attendre ${time} seconde(s) avant de ré-utiliser la commande \`${cmd}\`.**`,
- MONEY_ADD: (amt) => let answer = `**vous venez de récolter ${amt} <:NewGoldus:725023149741047829>**`,
- ACTION_FAILED: (amount, verb) => let answer = `Il vous manque **${amount} <:NewGoldus:725023149741047829>** pour ${verb} ceci !`,
+ MISSING_PERMISSIONS: (perm) => let answer = `**<:CheckNo:719807585015824414> | Sie haben keine \`${perm}\`-Berechtigung, um diesen Befehl zu verwenden.**`,
+ COOLDOWN: (time, cmd) => let answer = `**🕑 Bitte warten Sie ${time} Sekunden, bevor Sie den Befehl \`${cmd}\` erneut verwenden.**`,
+ MONEY_ADD: (amt) => let answer = `**sie haben gerade ${amt} <:NewGoldus:725023149741047829> gesammelt**`,
+ ACTION_FAILED: (amount, verb) => let answer = `Ihnen fehlen dafür **${amount} <:NewGoldus:725023149741047829>**!`,
  HELP: {
-  CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | Liste des commandes • ${nb} commandes`,
-  CMD_RAPPEL: "<a:notif:719806925788676157> | **Rappel :** Les arguments entre `<>` sont obligatoires, les arguments entre `[]` sont facultatifs.",
+  CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | Liste der Bestellungen • ${nb} Bestellungen`,
+  CMD_RAPPEL: "<a:notif:719806925788676157> | **Erinnerung:** Die Argumente zwischen `<>` sind obligatorisch, die Argumente zwischen `[]` sind optional.",
  },
  PING: {
-  API: "<a:DiscordFr_SpinDiscord:724945863214104577> | Latence de l'API :",
-  ROBOT: "<:DiscordFr_Bot:724946149299191818> | Latence du robot : ",
-  MSG: "<a:DiscordFr_Typing:724946684563554385> | Latence du message :",
-  QUALITE: "<a:DiscordFr_BlueLoading:724947426477080647> | Qualité de la latence du robot :"
+  API: "<a:DiscordFr_SpinDiscord:724945863214104577> | API-Latenz :",
+  ROBOT: "<:DiscordFr_Bot:724946149299191818> | Roboterlatenz : ",
+  MSG: "<a:DiscordFr_Typing:724946684563554385> | Nachrichtenlatenz :",
+  QUALITE: "<a:DiscordFr_BlueLoading:724947426477080647> | Qualität der Roboterlatenz :"
  },
  BAL: {
-  MONEY_OF: (usertag) => let answer = `Argent de ${usertag}`,
-  DISPLAY_MONEY: (pocket, bank, bankMax, global) => let answer = `**<:NewGoldus:725023149741047829> | Liquide : ${pocket} <:NewGoldus:725023149741047829>\n<:CarteBancaire:725023239319060643> | Argent en banque : ${bank} / ${bankMax}\n\n🌐 | Argent global : ${global} <:NewGoldus:725023149741047829>**`
+  MONEY_OF: (usertag) => let answer = `${usertag}s Geld`,
+  DISPLAY_MONEY: (pocket, bank, bankMax, global) => let answer = `**<:NewGoldus:725023149741047829> | Bargeld : ${pocket} <:NewGoldus:725023149741047829>\n<:CarteBancaire:725023239319060643> | Geld auf der Bank : ${bank} / ${bankMax}\n\n🌐 | Globales Geld : ${global} <:NewGoldus:725023149741047829>**`
  },
- DEPOSIT: (amt) => let answer = `Vous avez ajouté **${amt} <:NewGoldus:725023149741047829>** à votre compte en banque avec succès !`,
+ DEPOSIT: (amt) => let answer = ``,
  PAY: (amt) => let answer = ` a donné **${amt} <:NewGoldus:725023149741047829>** à `, // Ping au début et à la fin
  SHOP: {
   BANK: {

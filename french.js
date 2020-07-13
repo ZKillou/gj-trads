@@ -2,7 +2,7 @@ module.exports = {
  NOT_TRANSLATE: "Désolé, ceci n'est pas encore traduit en **FRANÇAIS**.",
  NO_ARGS: (usage) => {
   let args = "**Il nous faut des arguments pour cette commande !**"
-  if(usage) args += `\n**Voici comment utiliser la commande \`${usage}\`**`
+  if(usage) args += `\n**Voici comment utiliser la commande: \`${usage}\`**`
   return args
  },
  MISSING_PERMISSIONS: (perm) => let answer = `**<:CheckNo:719807585015824414> | Vous n'avez pas la permission \`${perm}\` pour utiliser cette commande.**`,

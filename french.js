@@ -20,7 +20,7 @@ module.exports = {
   QUALITE: "<a:DiscordFr_BlueLoading:724947426477080647> | Qualité de la latence du robot :"
  },
  BAL: {
-  MONEY_OF: (usertag) => let answer = `Argent de ${usertag}`,
+  MONEY_OF: "Argent de ",
   DISPLAY_MONEY: (pocket, bank, bankMax, global) => let answer = `**<:NewGoldus:725023149741047829> | Liquide : ${pocket} <:NewGoldus:725023149741047829>\n<:CarteBancaire:725023239319060643> | Argent en banque : ${bank} / ${bankMax}\n\n🌐 | Argent global : ${global} <:NewGoldus:725023149741047829>**`
  },
  DEPOSIT: (amt) => let answer = `Vous avez ajouté **${amt} <:NewGoldus:725023149741047829>** à votre compte en banque avec succès !`,
@@ -34,16 +34,16 @@ module.exports = {
  WITHDRAW: (amt) => let answer = `Vous avez retiré **${amt} <:NewGoldus:725023149741047829>** de votre compte en banque avec succès !`,
  CRIME: {
   SUCCES: (amt) => let answer = `**:gem: Vous venez de dévaliser une banque, vous obtenez ${amt} <:NewGoldus:725023149741047829>**`,
-  SUCCES_AUTHOR: "Butin de",
+  SUCCES_AUTHOR: "Butin de ",
   FAILED: (amt) => let answer = `**:police_officer: Vous sortez d'un cambriolage mais la police vous retrouve, vous devez payer ${amt} <:NewGoldus:725023149741047829>**`,
-  FAILED_AUTHOR: "Amende de"
+  FAILED_AUTHOR: "Amende de "
  },
  WORK: {
   DESC: (amt) => let answer = `**:hammer: En récompense de votre travail acharné. Vous êtes payés ${amt} <:NewGoldus:725023149741047829>**`,
-  AUTHOR: "Paye de"
+  AUTHOR: "Paye de "
  },
  RANK: {
-  AUTHOR: "Expérience de",
+  AUTHOR: "Expérience de ",
   DESC: "<:DiscordFr_Potion:725019354214695032> | Expérience totale :",
   LVL_NAME: "<a:DiscordFr_StarGif:725019476264747086> | Niveau :",
   RANK_NAME: "<:4eme:726816527914893402> | Rang :",
@@ -58,8 +58,8 @@ module.exports = {
  LEADERBOARD: {
   LIST: "**<:Help:728617506964635659> | Liste des leaderboards :\n\n<:DiscordFr_Potion:725019354214695032> | g!leaderboard rank\nAffiche le leaderboard des niveaux\n<:NewGoldus:725023149741047829> | g!leaderboard money\nAffiche le leaderboard de l'argent\n🌐 | g!leaderboard gmoney\nAffiche le leaderboard de l'argent global**",
   POS: "<:DiscordFr_Potion:725019354214695032> | Position :",
-  RANK_AUTHOR: "Top 10 des niveaux de",
-  MONEY_AUTHOR: "Top 10 des riches de",
+  RANK_AUTHOR: "Top 10 des niveaux de ",
+  MONEY_AUTHOR: "Top 10 des riches de ",
   GMONEY_AUTHOR: "Top 10 des riches globaux"
  }
 }

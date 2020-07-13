@@ -23,13 +23,13 @@ module.exports = {
   MONEY_OF: (usertag) => let answer = `${usertag}s Geld`,
   DISPLAY_MONEY: (pocket, bank, bankMax, global) => let answer = `**<:NewGoldus:725023149741047829> | Bargeld : ${pocket} <:NewGoldus:725023149741047829>\n<:CarteBancaire:725023239319060643> | Geld auf der Bank : ${bank} / ${bankMax}\n\n🌐 | Globales Geld : ${global} <:NewGoldus:725023149741047829>**`
  },
- DEPOSIT: (amt) => let answer = ``,
- PAY: (amt) => let answer = ` a donné **${amt} <:NewGoldus:725023149741047829>** à `, // Ping au début et à la fin
+ DEPOSIT: (amt) => let answer = `Sie haben Ihrem Bankkonto erfolgreich **${amt} <:NewGoldus:725023149741047829>** gutgeschrieben!`,
+ PAY: (amt) => let answer = ` gave **${amt} <:NewGoldus:725023149741047829>** to `, // Ping au début et à la fin
  SHOP: {
   BANK: {
-   MENU: (name, price, cmd) => let answer = `**Nom: ${name}\nPrix: ${price} <:NewGoldus:725023149741047829>\n${cmd}**\n`
+   MENU: (name, price, cmd) => let answer = `**Name: ${name}\nPreis: ${price} <:NewGoldus:725023149741047829>\n${cmd}**\n`
   },
-  BUY: (item) => let answer = `Vous avez acheté **${name}** avec succès !`
+  BUY: (item) => let answer = `Sie haben **${name}** erfolgreich gekauft!`
  },
  WITHDRAW: (amt) => let answer = `Vous avez retiré **${amt} <:NewGoldus:725023149741047829>** de votre compte en banque avec succès !`,
  CRIME: {

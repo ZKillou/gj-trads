@@ -8,7 +8,7 @@ module.exports = {
  MISSING_PERMISSIONS: (perm) => let answer = `**<:CheckNo:719807585015824414> | You don't have the permission \`${perm}\` to use this command.**`,
  COOLDOWN: (time, cmd) => let answer = `**🕑 Please wait ${time} second(s) before using the command \`${cmd}\`.**`,
  MONEY_ADD: (amt) => let answer = `**you just get ${amt} <:NewGoldus:725023149741047829>**`,
- ACTION_FAILED: (amount, verb) => let answer = `You need **${amount} <:NewGoldus:725023149741047829>** to do this !`,
+ ACTION_FAILED: (amount, verb) => let answer = `You need **${amount} <:NewGoldus:725023149741047829>** to do that !`,
  HELP: {
   CMD_LIST: (nb) => let answer = `<:Help:728617506964635659> | List of commands • ${nb} commands`,
   CMD_RAPPEL: "<a:notif:719806925788676157> | **Reminder :** Arguments beetween `<>` are obligatory and arguments between `[]` are optional.",
@@ -29,9 +29,9 @@ module.exports = {
   BANK: {
    MENU: (name, price, cmd) => let answer = `**Name: ${name}\nPrice: ${price} <:NewGoldus:725023149741047829>\n${cmd}**\n`
   },
-  BUY: (item) => let answer = `You have successfully brought **${name}**!`
+  BUY: (item) => let answer = `You have successfully purchased **${name}**!`
  },
- WITHDRAW: (amt) => let answer = `You have successfully withdrew **${amt} <:NewGoldus:725023149741047829>** of tour bank account!`,
+ WITHDRAW: (amt) => let answer = `You have successfully withdrawn **${amt} <:NewGoldus:725023149741047829>** of tour bank account!`,
  CRIME: {
   SUCCES: (amt) => let answer = `**:gem: Vous venez de dévaliser une banque, vous obtenez ${amt} <:NewGoldus:725023149741047829>**`,
   SUCCES_AUTHOR: (usertag) => let answer = `Butin de ${usertag}`,

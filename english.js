@@ -14,10 +14,10 @@ module.exports = {
   CMD_RAPPEL: "<a:notif:719806925788676157> | **Reminder :** Arguments beetween `<>` are obligatory and arguments between `[]` are optional.",
  },
  PING: {
-  API: "<a:DiscordFr_SpinDiscord:724945863214104577> | Latency of the API :",
-  ROBOT: "<:DiscordFr_Bot:724946149299191818> | Latency of the robot : ",
-  MSG: "<a:DiscordFr_Typing:724946684563554385> | Latency of the message :",
-  QUALITE: "<a:DiscordFr_BlueLoading:724947426477080647> | Quality of the latency of the robot :"
+  API: "<a:DiscordFr_SpinDiscord:724945863214104577> | API's latency :",
+  ROBOT: "<:DiscordFr_Bot:724946149299191818> | Robot's latency : ",
+  MSG: "<a:DiscordFr_Typing:724946684563554385> | Message's latency :",
+  QUALITE: "<a:DiscordFr_BlueLoading:724947426477080647> | Quality of the robot's latency :"
  },
  BAL: {
   MONEY_OF: (usertag) => let answer = `Argent de ${usertag}`,

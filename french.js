@@ -66,6 +66,6 @@ module.exports = {
   TITLE: "Quelle configuration voulez-vous modifier ?",
   CHOOSEN_LANGUAGE: "Vous avez choisi la langue **FRANÇAIS** avec succès !",
   SELECT_PREFIX: "Envoyez un message qui contient le prefix choisi",
-  SET_PREFIX: (prefix) => let answer = `Vous avez choisi le prefix **\`${prefix\`** avec succès !`
+  SET_PREFIX: (prefix) => let answer = `Vous avez choisi le prefix **\`${prefix}\`** avec succès !`
  }
 }

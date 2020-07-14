@@ -1,7 +1,7 @@
 module.exports = {
  NOT_TRANSLATE: "Lo sentimos, esto aún no está traducido al **ESPAÑOL**.",
  NO_ARGS: (usage) => {
-  let args = "**Il nous faut des arguments pour cette commande !**"
+  let args = "**¡ Necesitamos argumentos para esta orden !**"
   if(usage) args += `\n**Voici comment utiliser la commande: \`${usage}\`**`
   return args
  },

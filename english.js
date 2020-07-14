@@ -63,9 +63,9 @@ module.exports = {
   GMONEY_AUTHOR: "Top 10 des riches globaux"
  },
  CONFIG: {
-  TITLE: "Quel configuration voulez-vous modifier ?",
-  CHOOSEN_LANGUAGE: "Vous avez choisi la langue **FRANÇAIS** avec succès !",
-  SELECT_PREFIX: "Envoyez un message qui contient le prefix choisi",
-  SET_PREFIX: (prefix) => let answer = `Vous avez choisi le prefix **\`${prefix\`** avec succès !`
+  TITLE: "What configuration do you want to change ?",
+  CHOOSEN_LANGUAGE: "You have chosen the language 'ENGLAND' successfully!",
+  SELECT_PREFIX: "Send a message that contains the chosen prefix.",
+  SET_PREFIX: (prefix) => let answer = `You have chosen the prefix **\`${prefix\`** successfully!`
  }
 }

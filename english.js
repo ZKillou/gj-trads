@@ -56,11 +56,11 @@ module.exports = {
   ALREADY_DISABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | The \`${name}\` module is already disabled on the server.**`
  },
  LEADERBOARD: {
-  LIST: "**<:Help:728617506964635659> | Liste des leaderboards :\n\n<:DiscordFr_Potion:725019354214695032> | g!leaderboard rank\nAffiche le leaderboard des niveaux\n<:NewGoldus:725023149741047829> | g!leaderboard money\nAffiche le leaderboard de l'argent\n🌐 | g!leaderboard gmoney\nAffiche le leaderboard de l'argent global**",
+  LIST: "**<:Help:728617506964635659> | List of leaderboards :\n\n<:DiscordFr_Potion:725019354214695032> | g!leaderboard rank\nShows the leaderboard levels\n<:NewGoldus:725023149741047829> | g!leaderboard money\Shows the leaderboard money\n🌐 | g!leaderboard gmoney\Shows the leaderboard global money**",
   POS: "<:DiscordFr_Potion:725019354214695032> | Position :",
-  RANK_AUTHOR: (name) => let answer = `Top 10 des niveaux de ${name}`,
-  MONEY_AUTHOR: (name) => let answer = `Top 10 des riches de ${name}`,
-  GMONEY_AUTHOR: "Top 10 des riches globaux"
+  RANK_AUTHOR: (name) => let answer = `Top 10 ${name} levels`,
+  MONEY_AUTHOR: (name) => let answer = `Top 10 ${name} rich`,
+  GMONEY_AUTHOR: "Top 10 Global Rich"
  },
  CONFIG: {
   TITLE: "What configuration do you want to change ?",

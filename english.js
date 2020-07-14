@@ -33,13 +33,13 @@ module.exports = {
  },
  WITHDRAW: (amt) => `You have successfully withdrawn **${amt} <:NewGoldus:725023149741047829>** of tour bank account!`,
  CRIME: {
-  SUCCES: (amt) => `**:gem: You successfully rob a bank, you get **${amt} <:NewGoldus:725023149741047829>**`,
+  SUCCES: (amt) => `**:gem: You successfully rob a bank, you get ${amt} <:NewGoldus:725023149741047829>**`,
   SUCCES_AUTHOR: (usertag) => `${usertag}'s loot`,
-  FAILED: (amt) => `**:police_officer: You tried to rob a bank but you get caught by the police, you have to pay **${amt} <:NewGoldus:725023149741047829>**`,
+  FAILED: (amt) => `**:police_officer: You tried to rob a bank but you get caught by the police, you have to pay ${amt} <:NewGoldus:725023149741047829>**`,
   FAILED_AUTHOR: (usertag) => `${usertag}'s fine`
  },
  WORK: {
-  DESC: (amt) => `**:hammer: You did great job, you are paying **${amt} <:NewGoldus:725023149741047829>**`,
+  DESC: (amt) => `**:hammer: You did great job, you are paying ${amt} <:NewGoldus:725023149741047829>**`,
   AUTHOR: (usertag) => `${usertag}'s pay`
  },
  RANK: {

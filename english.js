@@ -52,8 +52,8 @@ module.exports = {
  MODULE: {
   ENABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | The \`${name}\` module has just been successfully activated ! M**`,
   ALREADY_ENABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | The \`${name}\` module is already activated on the server.**`,
-  DISABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Le module \`${name}\` vient d'être désactivé avec succès !**`,
-  ALREADY_DISABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Le module \`${name}\` est déjà désactivé sur le serveur.**`
+  DISABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | The \`${name}\` module has just been successfully disabled !**`,
+  ALREADY_DISABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | The \`${name}\` module is already disabled on the server.**`
  },
  LEADERBOARD: {
   LIST: "**<:Help:728617506964635659> | Liste des leaderboards :\n\n<:DiscordFr_Potion:725019354214695032> | g!leaderboard rank\nAffiche le leaderboard des niveaux\n<:NewGoldus:725023149741047829> | g!leaderboard money\nAffiche le leaderboard de l'argent\n🌐 | g!leaderboard gmoney\nAffiche le leaderboard de l'argent global**",

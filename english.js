@@ -29,7 +29,7 @@ module.exports = {
   BANK: {
    MENU: (name, price, cmd) => `**Name: ${name}\nPrice: ${price} <:NewGoldus:725023149741047829>\n${cmd}**\n`
   },
-  BUY: (item) => `You have successfully purchased **${name}**!`
+  BUY: (item) => `You have successfully purchased **${item}**!`
  },
  WITHDRAW: (amt) => `You have successfully withdrawn **${amt} <:NewGoldus:725023149741047829>** of tour bank account!`,
  CRIME: {

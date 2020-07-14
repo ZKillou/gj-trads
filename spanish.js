@@ -1,5 +1,5 @@
 module.exports = {
- NOT_TRANSLATE: "Désolé, ceci n'est pas encore traduit en **FRANÇAIS**.",
+ NOT_TRANSLATE: "Lo sentimos, esto aún no está traducido al **ESPAÑOL**.",
  NO_ARGS: (usage) => {
   let args = "**Il nous faut des arguments pour cette commande !**"
   if(usage) args += `\n**Voici comment utiliser la commande: \`${usage}\`**`
@@ -72,7 +72,7 @@ module.exports = {
   FOOTER: (serv) => let answer = `Enviado desde : ${serv}`,
   STATUS: {
    ONLINE: "En línea",
-   DND: "Don't Disturb",
+   DND: "No molestar",
    IDLE: "Inactivo",
    STREAMING: "Corriente",
    OFFLINE: "Sin conexión"

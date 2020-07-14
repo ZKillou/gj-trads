@@ -33,13 +33,13 @@ module.exports = {
  },
  WITHDRAW: (amt) => let answer = `You have successfully withdrawn **${amt} <:NewGoldus:725023149741047829>** of tour bank account!`,
  CRIME: {
-  SUCCES: (amt) => let answer = `**:gem: You successfully rob a bank, you get ${amt} <:NewGoldus:725023149741047829>**`,
+  SUCCES: (amt) => let answer = `**:gem: You successfully rob a bank, you get **${amt} <:NewGoldus:725023149741047829>**`,
   SUCCES_AUTHOR: (usertag) => let answer = `${usertag}'s loot`,
-  FAILED: (amt) => let answer = `**:police_officer: You tried to rob a bank but you get caught by the police, you have to pay ${amt} <:NewGoldus:725023149741047829>**`,
+  FAILED: (amt) => let answer = `**:police_officer: You tried to rob a bank but you get caught by the police, you have to pay **${amt} <:NewGoldus:725023149741047829>**`,
   FAILED_AUTHOR: (usertag) => let answer = `${usertag}'s fine`
  },
  WORK: {
-  DESC: (amt) => let answer = `**:hammer: You did great job, you are paying ${amt} <:NewGoldus:725023149741047829>**`,
+  DESC: (amt) => let answer = `**:hammer: You did great job, you are paying **${amt} <:NewGoldus:725023149741047829>**`,
   AUTHOR: (usertag) => let answer = `${usertag}'s pay`
  },
  RANK: {

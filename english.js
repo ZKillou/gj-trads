@@ -43,11 +43,11 @@ module.exports = {
   AUTHOR: (usertag) => let answer = `${usertag}'s pay`
  },
  RANK: {
-  AUTHOR: (usertag) => let answer = `Expérience de ${usertag}`,
-  DESC: "<:DiscordFr_Potion:725019354214695032> | Expérience totale :",
-  LVL_NAME: "<a:DiscordFr_StarGif:725019476264747086> | Niveau :",
-  RANK_NAME: "<:4eme:726816527914893402> | Rang :",
-  PROGRESS_NAME: "<:DiscordFr_ThisUp:725019995318517780> | Progression :",
+  AUTHOR: (usertag) => let answer = `${usertag}'s experience`,
+  DESC: "<:DiscordFr_Potion:725019354214695032> | Total experience :",
+  LVL_NAME: "<a:DiscordFr_StarGif:725019476264747086> | Level :",
+  RANK_NAME: "<:4eme:726816527914893402> | Rank :",
+  PROGRESS_NAME: "<:DiscordFr_ThisUp:725019995318517780> | Progress :",
  },
  MODULE: {
   ENABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Le module \`${name}\` vient d'être activé avec succès !**`,

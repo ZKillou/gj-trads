@@ -56,7 +56,7 @@ module.exports = {
   ALREADY_DISABLE: (name) => `**<:CheckNo:719807585015824414> | The \`${name}\` module is already disabled on the server.**`
  },
  LEADERBOARD: {
-  LIST: "**<:Help:728617506964635659> | List of leaderboards :\n\n<:DiscordFr_Potion:725019354214695032> | g!leaderboard rank\nShows the leaderboard levels\n<:NewGoldus:725023149741047829> | g!leaderboard money\Shows the leaderboard money\n🌐 | g!leaderboard gmoney\Shows the leaderboard global money**",
+  LIST: "**<:Help:728617506964635659> | List of leaderboards :\n\n<:DiscordFr_Potion:725019354214695032> | g!leaderboard rank\nShows the leaderboard levels\n<:NewGoldus:725023149741047829> | g!leaderboard money\nShows the leaderboard money\n🌐 | g!leaderboard gmoney\nShows the leaderboard global money**",
   POS: "<:DiscordFr_Potion:725019354214695032> | Position :",
   RANK_AUTHOR: (name) => `Top 10 ${name} levels`,
   MONEY_AUTHOR: (name) => `Top 10 ${name} rich`,

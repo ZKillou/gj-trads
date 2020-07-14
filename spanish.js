@@ -69,20 +69,20 @@ module.exports = {
   SET_PREFIX: (prefix) => let answer = `Vous avez choisi le prefix **\`${prefix}\`** avec succès !`
  },
  IC: {
-  FOOTER: (serv) => let answer = `Envoyé depuis : ${serv}`,
+  FOOTER: (serv) => let answer = `Enviado desde : ${serv}`,
   STATUS: {
-   ONLINE: "En ligne",
-   DND: "Ne pas déranger",
-   IDLE: "Inactif",
-   STREAMING: "Streame",
-   OFFLINE: "Hors ligne"
+   ONLINE: "En línea",
+   DND: "Don't Disturb",
+   IDLE: "Inactivo",
+   STREAMING: "Corriente",
+   OFFLINE: "Sin conexión"
   },
   STATE: {
-   STATUS: "Status :",
-   PLAYING: "Joue à :",
-   LISTENING: "Écoute :",
-   WATCHING: "Regarde :",
-   STREAM: "Streame :"
+   STATUS: "Estado :",
+   PLAYING: "Jugar :",
+   LISTENING: "Escuchar :",
+   WATCHING: "Ver :",
+   STREAM: "Corriente :"
   }
  }
 }

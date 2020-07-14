@@ -50,8 +50,8 @@ module.exports = {
   PROGRESS_NAME: "<:DiscordFr_ThisUp:725019995318517780> | Progress :",
  },
  MODULE: {
-  ENABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Le module \`${name}\` vient d'être activé avec succès !**`,
-  ALREADY_ENABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Le module \`${name}\` est déjà activé sur le serveur.**`,
+  ENABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | The \`${name}\` module has just been successfully activated ! M**`,
+  ALREADY_ENABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | The \`${name}\` module is already activated on the server.**`,
   DISABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Le module \`${name}\` vient d'être désactivé avec succès !**`,
   ALREADY_DISABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Le module \`${name}\` est déjà désactivé sur le serveur.**`
  },

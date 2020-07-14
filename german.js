@@ -43,29 +43,29 @@ module.exports = {
   AUTHOR: (usertag) => let answer = `${usertag}s Bezahlt`
  },
  RANK: {
-  AUTHOR: (usertag) => let answer = `Expérience de ${usertag}`,
-  DESC: "<:DiscordFr_Potion:725019354214695032> | Expérience totale :",
+  AUTHOR: (usertag) => let answer = `${usertag}s Erfahrungspunkt`,
+  DESC: "<:DiscordFr_Potion:725019354214695032> | Gesamterfahrungspunkt :",
   LVL_NAME: "<a:DiscordFr_StarGif:725019476264747086> | Niveau :",
   RANK_NAME: "<:4eme:726816527914893402> | Rang :",
-  PROGRESS_NAME: "<:DiscordFr_ThisUp:725019995318517780> | Progression :",
+  PROGRESS_NAME: "<:DiscordFr_ThisUp:725019995318517780> | Fortschreiten :",
  },
  MODULE: {
-  ENABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Le module \`${name}\` vient d'être activé avec succès !**`,
-  ALREADY_ENABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Le module \`${name}\` est déjà activé sur le serveur.**`,
-  DISABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Le module \`${name}\` vient d'être désactivé avec succès !**`,
-  ALREADY_DISABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Le module \`${name}\` est déjà désactivé sur le serveur.**`
+  ENABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Das \`${name}\`-Modul wurde gerade erfolgreich aktiviert!**`,
+  ALREADY_ENABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Das \`${name}\`-Modul ist bereits auf dem Server aktiviert.**`,
+  DISABLE: (name) => let answer = `**<:CheckYes:719807502966849627> | Das \`${name}\`-Modul wurde gerade erfolgreich deaktiviert!**`,
+  ALREADY_DISABLE: (name) => let answer = `**<:CheckNo:719807585015824414> | Das \`${name}\`-Modul ist auf dem Server bereits deaktiviert.**`
  },
  LEADERBOARD: {
-  LIST: "**<:Help:728617506964635659> | Liste des leaderboards :\n\n<:DiscordFr_Potion:725019354214695032> | g!leaderboard rank\nAffiche le leaderboard des niveaux\n<:NewGoldus:725023149741047829> | g!leaderboard money\nAffiche le leaderboard de l'argent\n🌐 | g!leaderboard gmoney\nAffiche le leaderboard de l'argent global**",
+  LIST: "**<:Help:728617506964635659> | Rangliste :\n\n<:DiscordFr_Potion:725019354214695032> | g!leaderboard rank\nZeigt die Ebenenklassifizierung an\n<:NewGoldus:725023149741047829> | g!leaderboard money\nZeigt das Geldranking an\n🌐 | g!leaderboard gmoney\nZeigt das gesamte Geldranking an**",
   POS: "<:DiscordFr_Potion:725019354214695032> | Position :",
-  RANK_AUTHOR: (name) => let answer = `Top 10 des niveaux de ${name}`,
-  MONEY_AUTHOR: (name) => let answer = `Top 10 des riches de ${name}`,
-  GMONEY_AUTHOR: "Top 10 des riches globaux"
+  RANK_AUTHOR: (name) => let answer = `Top 10 Level von ${name}`,
+  MONEY_AUTHOR: (name) => let answer = `Top 10 reiche Leute von ${name}`,
+  GMONEY_AUTHOR: "Top 10 der globalen Reichen"
  },
  CONFIG: {
-  TITLE: "Quel configuration voulez-vous modifier ?",
-  CHOOSEN_LANGUAGE: "Vous avez choisi la langue **FRANÇAIS** avec succès !",
-  SELECT_PREFIX: "Envoyez un message qui contient le prefix choisi",
-  SET_PREFIX: (prefix) => let answer = `Vous avez choisi le prefix **\`${prefix\`** avec succès !`
+  TITLE: "Welche Konfiguration möchten Sie ändern?",
+  CHOOSEN_LANGUAGE: "Sie haben die **DEUTSCHE** Sprache erfolgreich gewählt!",
+  SELECT_PREFIX: "Senden Sie eine Nachricht mit dem ausgewählten Präfix",
+  SET_PREFIX: (prefix) => let answer = `Sie haben das Präfix **\`${prefix}\`** mit Erfolg !`
  }
 }

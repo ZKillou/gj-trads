@@ -67,5 +67,22 @@ module.exports = {
   CHOOSEN_LANGUAGE: "Sie haben die **DEUTSCHE** Sprache erfolgreich gewählt!",
   SELECT_PREFIX: "Senden Sie eine Nachricht mit dem ausgewählten Präfix",
   SET_PREFIX: (prefix) => let answer = `Sie haben das Präfix **\`${prefix}\`** mit Erfolg !`
+ },
+ IC: {
+  FOOTER: (serv) => let answer = `Gesendet von : ${serv}`,
+  STATUS: {
+   ONLINE: "Online",
+   DND: "Störe nicht",
+   IDLE: "Leerlauf",
+   STREAMING: "Strome",
+   OFFLINE: "Offline"
+  },
+  STATE: {
+   STATUS: "Status :",
+   PLAYING: "Spielen :",
+   LISTENING: "Hören :",
+   WATCHING: "Aufpassen :",
+   STREAM: "Streaming :"
+  }
  }
 }

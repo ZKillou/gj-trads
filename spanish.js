@@ -64,9 +64,9 @@ module.exports = {
  },
  CONFIG: {
   TITLE: "Quelle configuration voulez-vous modifier ?",
-  CHOOSEN_LANGUAGE: "Vous avez choisi la langue **FRANÇAIS** avec succès !",
-  SELECT_PREFIX: "Envoyez un message qui contient le prefix choisi",
-  SET_PREFIX: (prefix) => `Vous avez choisi le prefix **\`${prefix}\`** avec succès !`
+  CHOOSEN_LANGUAGE: "¡ Ha elegido el idioma **SPANISH** con éxito !",
+  SELECT_PREFIX: "Envíe un mensaje que contenga el prefijo elegido.",
+  SET_PREFIX: (prefix) => `¡ Usted ha elegido el prefijo con éxito **\`${prefix}\` !**`
  },
  IC: {
   FOOTER: (serv) => `Enviado desde : ${serv}`,

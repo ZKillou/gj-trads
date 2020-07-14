@@ -31,16 +31,16 @@ module.exports = {
   },
   BUY: (item) => let answer = `Sie haben **${name}** erfolgreich gekauft!`
  },
- WITHDRAW: (amt) => let answer = `Vous avez retiré **${amt} <:NewGoldus:725023149741047829>** de votre compte en banque avec succès !`,
+ WITHDRAW: (amt) => let answer = `Sie haben erfolgreich **${amt} <:NewGoldus:725023149741047829>** von Ihrem Bankkonto abgebucht!`,
  CRIME: {
-  SUCCES: (amt) => let answer = `**:gem: Vous venez de dévaliser une banque, vous obtenez ${amt} <:NewGoldus:725023149741047829>**`,
-  SUCCES_AUTHOR: (usertag) => let answer = `Butin de ${usertag}`,
-  FAILED: (amt) => let answer = `**:police_officer: Vous sortez d'un cambriolage mais la police vous retrouve, vous devez payer ${amt} <:NewGoldus:725023149741047829>**`,
-  FAILED_AUTHOR: (usertag) => let answer = `Amende de ${usertag}`
+  SUCCES: (amt) => let answer = `**:gem: Sie haben gerade eine Bank ausgeraubt, Sie bekommen **${amt} <:NewGoldus:725023149741047829>**`,
+  SUCCES_AUTHOR: (usertag) => let answer = `${usertag}s Beute`,
+  FAILED: (amt) => let answer = `**:police_officer: Sie kommen aus einem Einbruch heraus, aber die Polizei findet Sie, Sie müssen **${amt} <:NewGoldus:725023149741047829>** bezahlen`,
+  FAILED_AUTHOR: (usertag) => let answer = `${usertag}s Fein`
  },
  WORK: {
-  DESC: (amt) => let answer = `**:hammer: En récompense de votre travail acharné. Vous êtes payés ${amt} <:NewGoldus:725023149741047829>**`,
-  AUTHOR: (usertag) => let answer = `Paye de ${usertag}`
+  DESC: (amt) => let answer = `**:hammer: Als Belohnung für Ihre harte Arbeit. Sie erhalten **${amt} <:NewGoldus:725023149741047829>**`,
+  AUTHOR: (usertag) => let answer = `${usertag}s Bezahlt`
  },
  RANK: {
   AUTHOR: (usertag) => let answer = `Expérience de ${usertag}`,

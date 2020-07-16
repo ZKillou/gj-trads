@@ -115,6 +115,7 @@ module.exports = {
    AUDIT_LOGS: (mod, reason) => `Modérateur: ${mod} | Raison: ${reason}`,
    I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas rendre muet cet utilisateur !**",
    YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas rendre muet cet utilisateur !**",
+   ROLE_ERROR: "**<:CheckNo:719807585015824414> Le rôle `Muted` a une position superieur à mon rôle le plus haut, je ne peux donc pas rendre muet cet utilisateur. Veuillez rééssayer lorsque vous aurez descendu le rôle `Muted` sous mon rôle le plus haut !**",
    ALDEADY_MUTED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà été rendu muet sur le serveur !**`
   },
   UNMUTE: {
@@ -123,6 +124,7 @@ module.exports = {
    AUDIT_LOGS: (mod, reason) => `Modérateur: ${mod} | Raison: ${reason}`,
    I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas rendre la parole à cet utilisateur !**",
    YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas rendre la parole à cet utilisateur !**",
+   ROLE_ERROR: "**<:CheckNo:719807585015824414> Le rôle `Muted` a une position superieur à mon rôle le plus haut, je ne peux donc pas rendre la parole à cet utilisateur. Veuillez rééssayer lorsque vous aurez descendu le rôle `Muted` sous mon rôle le plus haut !**",
    ALDEADY_UNMUTED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà la parole sur le serveur !**`
   },
   WARN: {

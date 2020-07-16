@@ -115,6 +115,7 @@ module.exports = {
    AUDIT_LOGS: (mod, reason) => `Mod: ${mod} | Reason: ${reason}`,
    I_CANT: "**<:CheckNo:719807585015824414> I can't mute this user!**",
    YOU_CANT: "**<:CheckNo:719807585015824414> You can't mute this user!**",
+   ROLE_ERROR: "**<:CheckNo:719807585015824414> The `Muted` role is higher than my highest role, so I cannot mute this user. Please try again when you have lowered the role `Muted` under my highest role!**",
    ALDEADY_MUTED: (user) => `**<:CheckNo:719807585015824414> The user ${user} has already been muted from the guild!**`
   },
   UNMUTE: {
@@ -123,6 +124,7 @@ module.exports = {
    AUDIT_LOGS: (mod, reason) => `Mod: ${mod} | Reason: ${reason}`,
    I_CANT: "**<:CheckNo:719807585015824414> I can't unmute this user!**",
    YOU_CANT: "**<:CheckNo:719807585015824414> You can't unmute this user!**",
+   ROLE_ERROR: "**<:CheckNo:719807585015824414> The `Muted` role is higher than my highest role, so I cannot unmute this user. Please try again when you have lowered the role `Muted` under my highest role!**",
    ALDEADY_UNMUTED: (user) => `**<:CheckNo:719807585015824414> The user ${user} has already been unmuted from the guild!**`
   },
   WARN: {

@@ -87,6 +87,7 @@ module.exports = {
  },
  MOD: {
   NO_REASON: "Keinen Grund angeben",
+  USER_NOT_FOUND: "**<:CheckNo:719807585015824414> Cet utilisateur est introuvable ...**",
   BAN: {
    BANNED: (user, reason) => `**<:CheckYes:719807502966849627> Sie haben ${user} mit folgendem Grund verboten: \`${reason}\` erfolgreich!**`,
    BANNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Sie wurden vom \`${guildname}\`-Server aus folgendem Grund gesperrt: \`${reason}\`!**`,

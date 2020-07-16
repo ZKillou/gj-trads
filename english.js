@@ -133,6 +133,9 @@ module.exports = {
    I_CANT: "**<:CheckNo:719807585015824414> I can't warn this user!**",
    YOU_CANT: "**<:CheckNo:719807585015824414> You can't warn this user!**"
   },
+  WARNS: {
+   TITLE: (user) => `${user}'s warn list`
+  },
   UNWARN: {
    UNWARNED: (user, reason) => `**<:CheckYes:719807502966849627> You successfully removed a warning to ${user} with reason: \`${reason}\`!**`,
    UNWARNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> A warning has been removed from the guild \`${guildname}\` for the reason: \`${reason}\`!**`,

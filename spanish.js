@@ -134,7 +134,8 @@ module.exports = {
    YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas donner un avertissement à cet utilisateur !**"
   },
   WARNS: {
-   TITLE: (user) => `Liste des warns de ${user}`
+   TITLE: (user) => `Liste des warns de ${user}`,
+   NO_WARNS: "Ce membre n'a aucun avertissement !"
   },
   UNWARN: {
    UNWARNED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez enlevé un avertissement à ${user} avec comme raison: \`${reason}\` avec succès !**`,

@@ -133,6 +133,9 @@ module.exports = {
    I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas donner un avertissement à cet utilisateur !**",
    YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas donner un avertissement à cet utilisateur !**"
   },
+  WARNS: {
+   TITLE: (user) => `Liste des warns de ${user}`
+  },
   UNWARN: {
    UNWARNED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez enlevé un avertissement à ${user} avec comme raison: \`${reason}\` avec succès !**`,
    UNWARNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Un avertissement vous a été supprimé sur le serveur \`${guildname}\` pour la raison: \`${reason}\` !**`,

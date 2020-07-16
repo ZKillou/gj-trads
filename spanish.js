@@ -94,13 +94,13 @@ module.exports = {
    AUDIT_LOGS: (mod, reason) => `Modérateur: ${mod} | Raison: ${reason}`,
    I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas bannir cet utilisateur !**",
    YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas bannir cet utilisateur !**",
-   ALDEADY_BANNED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà été banni du serveur !**`
+   ALREADY_BANNED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà été banni du serveur !**`
   },
   UNBAN: {
    UNBANNED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez débanni ${user} avec comme raison: \`${reason}\` avec succès !**`,
    UNBANNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Vous avez été débanni du serveur \`${guildname}\` pour la raison: \`${reason}\` !**`,
    AUDIT_LOGS: (mod, reason) => `Modérateur: ${mod} | Raison: ${reason}`,
-   ALDEADY_UNBANNED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà été débanni du serveur !**`
+   ALREADY_UNBANNED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà été débanni du serveur !**`
   },
   KICK: {
    KICKED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez viré ${user} avec comme raison: \`${reason}\` avec succès !**`,
@@ -116,7 +116,7 @@ module.exports = {
    I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas rendre muet cet utilisateur !**",
    YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas rendre muet cet utilisateur !**",
    ROLE_ERROR: "**<:CheckNo:719807585015824414> Le rôle `Muted` a une position superieur à mon rôle le plus haut, je ne peux donc pas rendre muet cet utilisateur. Veuillez rééssayer lorsque vous aurez descendu le rôle `Muted` sous mon rôle le plus haut !**",
-   ALDEADY_MUTED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà été rendu muet sur le serveur !**`
+   ALREADY_MUTED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà été rendu muet sur le serveur !**`
   },
   UNMUTE: {
    UNMUTED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez rendu la parole à ${user} avec comme raison: \`${reason}\` avec succès !**`,
@@ -125,7 +125,7 @@ module.exports = {
    I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas rendre la parole à cet utilisateur !**",
    YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas rendre la parole à cet utilisateur !**",
    ROLE_ERROR: "**<:CheckNo:719807585015824414> Le rôle `Muted` a une position superieur à mon rôle le plus haut, je ne peux donc pas rendre la parole à cet utilisateur. Veuillez rééssayer lorsque vous aurez descendu le rôle `Muted` sous mon rôle le plus haut !**",
-   ALDEADY_UNMUTED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà la parole sur le serveur !**`
+   ALREADY_UNMUTED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà la parole sur le serveur !**`
   },
   WARN: {
    WARNED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez donné un avertissement à ${user} avec comme raison: \`${reason}\` avec succès !**`,

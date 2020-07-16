@@ -134,7 +134,8 @@ module.exports = {
    YOU_CANT: "**<:CheckNo:719807585015824414> You can't warn this user!**"
   },
   WARNS: {
-   TITLE: (user) => `${user}'s warn list`
+   TITLE: (user) => `${user}'s warn list`,
+   NO_WARNS: "This user has no warnings!"
   },
   UNWARN: {
    UNWARNED: (user, reason) => `**<:CheckYes:719807502966849627> You successfully removed a warning to ${user} with reason: \`${reason}\`!**`,

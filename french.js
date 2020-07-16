@@ -99,8 +99,6 @@ module.exports = {
    UNBANNED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez débanni ${user} avec comme raison: \`${reason}\` avec succès !**`,
    UNBANNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Vous avez été débanni du serveur \`${guildname}\` pour la raison: \`${reason}\` !**`,
    AUDIT_LOGS: (mod, reason) => `Modérateur: ${mod} | Raison: ${reason}`,
-   I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas bannir cet utilisateur !**",
-   YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas bannir cet utilisateur !**",
    ALDEADY_UNBANNED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà été débanni du serveur !**`
   },
   KICK: {

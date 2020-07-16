@@ -87,6 +87,7 @@ module.exports = {
  },
  MOD: {
   NO_REASON: "No reason specified",
+  USER_NOT_FOUND: "**<:CheckNo:719807585015824414> I can't find this user...**",
   BAN: {
    BANNED: (user, reason) => `**<:CheckYes:719807502966849627> You successfully banished ${user} with reason: \`${reason}\`!**`,
    BANNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> You have been banned from the guild \`${guildname}\` with reason: \`${reason}\`!**`,

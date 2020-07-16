@@ -84,5 +84,65 @@ module.exports = {
    WATCHING: "Aufpassen :",
    STREAM: "Streaming :"
   }
+ },
+ MOD: {
+  NO_REASON: "Keinen Grund angeben",
+  BAN: {
+   BANNED: (user, reason) => `**<:CheckYes:719807502966849627> Sie haben ${user} mit folgendem Grund verboten: \`${reason}\` erfolgreich!**`,
+   BANNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Sie wurden vom \`${guildname}\`-Server aus folgendem Grund gesperrt: \`${reason}\`!**`,
+   AUDIT_LOGS: (mod, reason) => `Moderator: ${mod} | Grund: ${reason}`,
+   I_CANT: "**<:CheckNo:719807585015824414> Ich kann diesen Benutzer nicht sperren!**",
+   YOU_CANT: "**<:CheckNo:719807585015824414> Sie können diesen Benutzer nicht sperren!**",
+   ALDEADY_BANNED: (user) => `**<:CheckNo:719807585015824414> Der Benutzer ${user} wurde bereits vom Server gesperrt!**`
+  },
+  UNBAN: {
+   UNBANNED: (user, reason) => `**<:CheckYes:719807502966849627> **`,
+   UNBANNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Vous avez été débanni du serveur \`${guildname}\` pour la raison: \`${reason}\` !**`,
+   AUDIT_LOGS: (mod, reason) => `Modérateur: ${mod} | Raison: ${reason}`,
+   ALDEADY_UNBANNED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà été débanni du serveur !**`
+  },
+  KICK: {
+   KICKED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez viré ${user} avec comme raison: \`${reason}\` avec succès !**`,
+   KICKED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Vous avez été viré du serveur \`${guildname}\` pour la raison: \`${reason}\` !**`,
+   AUDIT_LOGS: (mod, reason) => `Modérateur: ${mod} | Raison: ${reason}`,
+   I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas virer cet utilisateur !**",
+   YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas virer cet utilisateur !**"
+  },
+  MUTE: {
+   MUTED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez rendu muet ${user} avec comme raison: \`${reason}\` avec succès !**`,
+   MUTED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Vous avez été rendu muet du serveur \`${guildname}\` pour la raison: \`${reason}\` !**`,
+   AUDIT_LOGS: (mod, reason) => `Modérateur: ${mod} | Raison: ${reason}`,
+   I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas rendre muet cet utilisateur !**",
+   YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas rendre muet cet utilisateur !**",
+   ALDEADY_MUTED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà été rendu muet sur le serveur !**`
+  },
+  UNMUTE: {
+   UNMUTED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez rendu la parole à ${user} avec comme raison: \`${reason}\` avec succès !**`,
+   UNMUTED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Vous avez retrouvé la parole sur le serveur \`${guildname}\` pour la raison: \`${reason}\` !**`,
+   AUDIT_LOGS: (mod, reason) => `Modérateur: ${mod} | Raison: ${reason}`,
+   I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas rendre la parole à cet utilisateur !**",
+   YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas rendre la parole à cet utilisateur !**",
+   ALDEADY_UNMUTED: (user) => `**<:CheckNo:719807585015824414> L'utilisateur ${user} a déjà la parole sur le serveur !**`
+  },
+  WARN: {
+   WARNED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez donné un avertissement à ${user} avec comme raison: \`${reason}\` avec succès !**`,
+   WARNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Vous avez reçu un avertissement sur le serveur \`${guildname}\` pour la raison: \`${reason}\` !**`,
+   I_CANT: "**<:CheckNo:719807585015824414> Je ne peux pas donner un avertissement à cet utilisateur !**",
+   YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas donner un avertissement à cet utilisateur !**"
+  },
+  UNWARN: {
+   UNWARNED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez enlevé un avertissement à ${user} avec comme raison: \`${reason}\` avec succès !**`,
+   UNWARNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Un avertissement vous a été supprimé sur le serveur \`${guildname}\` pour la raison: \`${reason}\` !**`,
+   YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas enlever d'avertissement à cet utilisateur !**"
+  },
+  CLEARWARN: {
+   CLEARWARNED: (user, reason) => `**<:CheckYes:719807502966849627> Vous avez supprimé tous les avertissements de ${user} avec comme raison: \`${reason}\` avec succès !**`,
+   CLEARWARNED_DM: (guildname, reason) => `**<:Warning:719808381593976842> Tous vos avertissements vous ont été supprimé sur le serveur \`${guildname}\` pour la raison: \`${reason}\` !**`,
+   YOU_CANT: "**<:CheckNo:719807585015824414> Vous ne pouvez pas supprimer tous les avertissements de cet utilisateur !**"
+  },
+  CLEAR: {
+   CLEARED: (amt) => `**<:CheckYes:719807502966849627> Vous avez supprimé \`${amt}\` messages avec succès !**`,
+   AUDIT_LOGS: (mod, reason) => `Modérateur: ${mod}`
+  },
  }
 }
